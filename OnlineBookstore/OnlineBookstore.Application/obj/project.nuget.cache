@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "eghxModjuSVmc4hsKPbcDj4czOvjhjciSNaK72NRq+T9fjPVKpdl8taKW1EgPzFnBhgnQvfscIBvm9SA7QAJ1g==",
+  "dgSpecHash": "CUYVW/oiqkdnZcXzEazIJ7Gdi20XOF7ImZOIFBZ13WSMPzdG194iPSgamlS7x0WG3HZZIB+WfJgBnyGFj+0t7g==",
   "success": true,
   "projectFilePath": "D:\\Bitbucket\\Web\\OnlineBookstore\\OnlineBookstore\\OnlineBookstore.Application\\OnlineBookstore.Application.csproj",
   "expectedPackageFiles": [
@@ -31,7 +31,7 @@
     "C:\\Users\\Dharmesh\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\Dharmesh\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
     "C:\\Users\\Dharmesh\\.nuget\\packages\\system.collections.immutable\\1.7.1\\system.collections.immutable.1.7.1.nupkg.sha512",
-    "C:\\Users\\Dharmesh\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512",
+    "C:\\Users\\Dharmesh\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
     "C:\\Users\\Dharmesh\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.1\\system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512",
     "C:\\Users\\Dharmesh\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
     "C:\\Users\\Dharmesh\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",

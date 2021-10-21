@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "8hSUaCTEHVu3GBjIMeFWt+XdfjgjUDtnhDO/w7wQbIYRWrbUsjxrWE22vSGuO3Nk2/Jb+kaG0zGhdd34nyKTJA==",
+  "dgSpecHash": "cFO6256M1tT1NzZyuw8SmZMZz0avEEzGGyZb9OitGjWmOqUqBp70m53L+rS0xASpIRW1JPdtZmz2ZKVtflG8Wg==",
   "success": true,
   "projectFilePath": "D:\\Bitbucket\\Web\\OnlineBookstore\\OnlineBookstore\\OnlineBookstore.Infrastructure.Identity\\OnlineBookstore.Infrastructure.Identity.csproj",
   "expectedPackageFiles": [
@@ -64,7 +64,7 @@
     "C:\\Users\\Dharmesh\\.nuget\\packages\\system.collections.nongeneric\\4.3.0\\system.collections.nongeneric.4.3.0.nupkg.sha512",
     "C:\\Users\\Dharmesh\\.nuget\\packages\\system.collections.specialized\\4.3.0\\system.collections.specialized.4.3.0.nupkg.sha512",
     "C:\\Users\\Dharmesh\\.nuget\\packages\\system.componentmodel\\4.3.0\\system.componentmodel.4.3.0.nupkg.sha512",
-    "C:\\Users\\Dharmesh\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512",
+    "C:\\Users\\Dharmesh\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
     "C:\\Users\\Dharmesh\\.nuget\\packages\\system.componentmodel.primitives\\4.3.0\\system.componentmodel.primitives.4.3.0.nupkg.sha512",
     "C:\\Users\\Dharmesh\\.nuget\\packages\\system.componentmodel.typeconverter\\4.3.0\\system.componentmodel.typeconverter.4.3.0.nupkg.sha512",
     "C:\\Users\\Dharmesh\\.nuget\\packages\\system.configuration.configurationmanager\\4.5.0\\system.configuration.configurationmanager.4.5.0.nupkg.sha512",

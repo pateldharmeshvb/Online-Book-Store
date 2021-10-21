@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "vjhU3WCGodi4DlHz3qNbACwFnPyuXc1PpnEWJZrqaEnLejRJnRepqiCai9uqEu7ZKOY7NcIFHxy/bJTaNbQmpQ==",
+  "dgSpecHash": "Ox4xu75LdwZROMdDlZSfB/Z/3DhmsVEF6Gp81Aga81VHdZ+fd2MnUDAGIXzilWvHS+2gjCirKIAZ2VxIgSt2iQ==",
   "success": true,
   "projectFilePath": "D:\\Bitbucket\\Web\\OnlineBookstore\\OnlineBookstore\\OnlineBookstore.Domain\\OnlineBookstore.Domain.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Dharmesh\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "glVhVhmEAfuwNi+FghibV2AEBnV1fuXKvfe5I75VjyjZwAMcK4f5oxt7IRvZ/kmNl8plwlNsaJvTv7aSEyELuw==",
+  "dgSpecHash": "L4UpIDjKsKNfdKzY0vdmCsgd+JdUg6caFf2a2K5qmljlTwDFgunwrQPEDnu1DHsNxKRLPOj3KKp58qWIriEFZQ==",
   "success": true,
   "projectFilePath": "D:\\Bitbucket\\Web\\OnlineBookstore\\OnlineBookstore\\OnlineBookstore.Infrastructure.Shared\\OnlineBookstore.Infrastructure.Shared.csproj",
   "expectedPackageFiles": [
@@ -55,7 +55,7 @@
     "C:\\Users\\Dharmesh\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
     "C:\\Users\\Dharmesh\\.nuget\\packages\\system.collections.concurrent\\4.3.0\\system.collections.concurrent.4.3.0.nupkg.sha512",
     "C:\\Users\\Dharmesh\\.nuget\\packages\\system.collections.immutable\\1.7.1\\system.collections.immutable.1.7.1.nupkg.sha512",
-    "C:\\Users\\Dharmesh\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512",
+    "C:\\Users\\Dharmesh\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
     "C:\\Users\\Dharmesh\\.nuget\\packages\\system.diagnostics.debug\\4.3.0\\system.diagnostics.debug.4.3.0.nupkg.sha512",
     "C:\\Users\\Dharmesh\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.1\\system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512",
     "C:\\Users\\Dharmesh\\.nuget\\packages\\system.diagnostics.tracing\\4.3.0\\system.diagnostics.tracing.4.3.0.nupkg.sha512",
