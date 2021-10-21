@@ -10,6 +10,8 @@ namespace OnlineBookstore.Application.DTOs.Book
         public string Name { get; set; }
         public string Barcode { get; set; }
         public string Description { get; set; }
+        public string AuthorName { get; set; }
+
         public decimal Rate { get; set; }
     }
 }

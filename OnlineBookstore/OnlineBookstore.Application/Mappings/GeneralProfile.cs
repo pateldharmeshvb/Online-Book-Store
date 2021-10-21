@@ -25,7 +25,7 @@ namespace OnlineBookstore.Application.Mappings
 
             //Author
             CreateMap<Author, GetAllAuthorsViewModel>().ReverseMap();
-            CreateMap<CreateAuthorCommand, Book>();
+            CreateMap<CreateAuthorCommand, Author>();
             CreateMap<GetAllAthorsQuery, GetAllAuthorsParameter>();
         }
     }

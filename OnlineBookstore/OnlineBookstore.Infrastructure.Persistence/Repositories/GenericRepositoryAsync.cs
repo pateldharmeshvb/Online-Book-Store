@@ -26,7 +26,7 @@ namespace OnlineBookstore.Infrastructure.Persistence.Repository
         public async Task<IReadOnlyList<T>> GetPagedReponseAsync(int pageNumber, int pageSize)
         {
             return await _dbContext
-                .Set<T>()
+                .Set<T>().Include(x=>x)
                 .Skip((pageNumber - 1) * pageSize)
                 .Take(pageSize)
                 .AsNoTracking()

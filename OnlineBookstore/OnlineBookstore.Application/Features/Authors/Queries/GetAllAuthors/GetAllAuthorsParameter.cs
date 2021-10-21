@@ -7,6 +7,6 @@ namespace OnlineBookstore.Application.Features.Authors.Queries.GetAllAuthors
 {
     public class GetAllAuthorsParameter : RequestParameter
     {
-
+        public string Name { get; set; }
     }
 }
