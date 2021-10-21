@@ -7,6 +7,5 @@ namespace OnlineBookstore.Application.Features.Books.Queries.GetAllBooks
 {
     public class GetAllBooksParameter : RequestParameter
     {
-
     }
 }
