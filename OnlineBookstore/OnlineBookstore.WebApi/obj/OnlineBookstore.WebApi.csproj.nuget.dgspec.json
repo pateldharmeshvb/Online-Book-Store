@@ -1,0 +1,576 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Bitbucket\\Web\\OnlineBookstore\\OnlineBookstore\\OnlineBookstore.WebApi\\OnlineBookstore.WebApi.csproj": {}
+  },
+  "projects": {
+    "D:\\Bitbucket\\Web\\OnlineBookstore\\OnlineBookstore\\OnlineBookstore.Application\\OnlineBookstore.Application.csproj": {
+      "version": "1.1.0",
+      "restore": {
+        "projectUniqueName": "D:\\Bitbucket\\Web\\OnlineBookstore\\OnlineBookstore\\OnlineBookstore.Application\\OnlineBookstore.Application.csproj",
+        "projectName": "OnlineBookstore.Application",
+        "projectPath": "D:\\Bitbucket\\Web\\OnlineBookstore\\OnlineBookstore\\OnlineBookstore.Application\\OnlineBookstore.Application.csproj",
+        "packagesPath": "C:\\Users\\Dharmesh\\.nuget\\packages\\",
+        "outputPath": "D:\\Bitbucket\\Web\\OnlineBookstore\\OnlineBookstore\\OnlineBookstore.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Dharmesh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "D:\\Bitbucket\\Web\\LMS": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "D:\\Bitbucket\\Web\\OnlineBookstore\\OnlineBookstore\\OnlineBookstore.Domain\\OnlineBookstore.Domain.csproj": {
+                "projectPath": "D:\\Bitbucket\\Web\\OnlineBookstore\\OnlineBookstore\\OnlineBookstore.Domain\\OnlineBookstore.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.0.0, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[9.1.2, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[9.1.2, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[4.7.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Bitbucket\\Web\\OnlineBookstore\\OnlineBookstore\\OnlineBookstore.Domain\\OnlineBookstore.Domain.csproj": {
+      "version": "1.1.0",
+      "restore": {
+        "projectUniqueName": "D:\\Bitbucket\\Web\\OnlineBookstore\\OnlineBookstore\\OnlineBookstore.Domain\\OnlineBookstore.Domain.csproj",
+        "projectName": "OnlineBookstore.Domain",
+        "projectPath": "D:\\Bitbucket\\Web\\OnlineBookstore\\OnlineBookstore\\OnlineBookstore.Domain\\OnlineBookstore.Domain.csproj",
+        "packagesPath": "C:\\Users\\Dharmesh\\.nuget\\packages\\",
+        "outputPath": "D:\\Bitbucket\\Web\\OnlineBookstore\\OnlineBookstore\\OnlineBookstore.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Dharmesh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "D:\\Bitbucket\\Web\\LMS": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Bitbucket\\Web\\OnlineBookstore\\OnlineBookstore\\OnlineBookstore.Infrastructure.Identity\\OnlineBookstore.Infrastructure.Identity.csproj": {
+      "version": "1.1.0",
+      "restore": {
+        "projectUniqueName": "D:\\Bitbucket\\Web\\OnlineBookstore\\OnlineBookstore\\OnlineBookstore.Infrastructure.Identity\\OnlineBookstore.Infrastructure.Identity.csproj",
+        "projectName": "OnlineBookstore.Infrastructure.Identity",
+        "projectPath": "D:\\Bitbucket\\Web\\OnlineBookstore\\OnlineBookstore\\OnlineBookstore.Infrastructure.Identity\\OnlineBookstore.Infrastructure.Identity.csproj",
+        "packagesPath": "C:\\Users\\Dharmesh\\.nuget\\packages\\",
+        "outputPath": "D:\\Bitbucket\\Web\\OnlineBookstore\\OnlineBookstore\\OnlineBookstore.Infrastructure.Identity\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Dharmesh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "D:\\Bitbucket\\Web\\LMS": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\Bitbucket\\Web\\OnlineBookstore\\OnlineBookstore\\OnlineBookstore.Application\\OnlineBookstore.Application.csproj": {
+                "projectPath": "D:\\Bitbucket\\Web\\OnlineBookstore\\OnlineBookstore\\OnlineBookstore.Application\\OnlineBookstore.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "MimeKit": {
+              "target": "Package",
+              "version": "[2.9.1, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.7.1, )"
+            },
+            "microsoft.extensions.dependencyinjection": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Bitbucket\\Web\\OnlineBookstore\\OnlineBookstore\\OnlineBookstore.Infrastructure.Persistence\\OnlineBookstore.Infrastructure.Persistence.csproj": {
+      "version": "1.1.0",
+      "restore": {
+        "projectUniqueName": "D:\\Bitbucket\\Web\\OnlineBookstore\\OnlineBookstore\\OnlineBookstore.Infrastructure.Persistence\\OnlineBookstore.Infrastructure.Persistence.csproj",
+        "projectName": "OnlineBookstore.Infrastructure.Persistence",
+        "projectPath": "D:\\Bitbucket\\Web\\OnlineBookstore\\OnlineBookstore\\OnlineBookstore.Infrastructure.Persistence\\OnlineBookstore.Infrastructure.Persistence.csproj",
+        "packagesPath": "C:\\Users\\Dharmesh\\.nuget\\packages\\",
+        "outputPath": "D:\\Bitbucket\\Web\\OnlineBookstore\\OnlineBookstore\\OnlineBookstore.Infrastructure.Persistence\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Dharmesh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "D:\\Bitbucket\\Web\\LMS": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\Bitbucket\\Web\\OnlineBookstore\\OnlineBookstore\\OnlineBookstore.Application\\OnlineBookstore.Application.csproj": {
+                "projectPath": "D:\\Bitbucket\\Web\\OnlineBookstore\\OnlineBookstore\\OnlineBookstore.Application\\OnlineBookstore.Application.csproj"
+              },
+              "D:\\Bitbucket\\Web\\OnlineBookstore\\OnlineBookstore\\OnlineBookstore.Domain\\OnlineBookstore.Domain.csproj": {
+                "projectPath": "D:\\Bitbucket\\Web\\OnlineBookstore\\OnlineBookstore\\OnlineBookstore.Domain\\OnlineBookstore.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Bitbucket\\Web\\OnlineBookstore\\OnlineBookstore\\OnlineBookstore.Infrastructure.Shared\\OnlineBookstore.Infrastructure.Shared.csproj": {
+      "version": "1.1.0",
+      "restore": {
+        "projectUniqueName": "D:\\Bitbucket\\Web\\OnlineBookstore\\OnlineBookstore\\OnlineBookstore.Infrastructure.Shared\\OnlineBookstore.Infrastructure.Shared.csproj",
+        "projectName": "OnlineBookstore.Infrastructure.Shared",
+        "projectPath": "D:\\Bitbucket\\Web\\OnlineBookstore\\OnlineBookstore\\OnlineBookstore.Infrastructure.Shared\\OnlineBookstore.Infrastructure.Shared.csproj",
+        "packagesPath": "C:\\Users\\Dharmesh\\.nuget\\packages\\",
+        "outputPath": "D:\\Bitbucket\\Web\\OnlineBookstore\\OnlineBookstore\\OnlineBookstore.Infrastructure.Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Dharmesh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "D:\\Bitbucket\\Web\\LMS": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\Bitbucket\\Web\\OnlineBookstore\\OnlineBookstore\\OnlineBookstore.Application\\OnlineBookstore.Application.csproj": {
+                "projectPath": "D:\\Bitbucket\\Web\\OnlineBookstore\\OnlineBookstore\\OnlineBookstore.Application\\OnlineBookstore.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "MailKit": {
+              "target": "Package",
+              "version": "[2.8.0, )"
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "MimeKit": {
+              "target": "Package",
+              "version": "[2.9.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Bitbucket\\Web\\OnlineBookstore\\OnlineBookstore\\OnlineBookstore.WebApi\\OnlineBookstore.WebApi.csproj": {
+      "version": "1.1.0",
+      "restore": {
+        "projectUniqueName": "D:\\Bitbucket\\Web\\OnlineBookstore\\OnlineBookstore\\OnlineBookstore.WebApi\\OnlineBookstore.WebApi.csproj",
+        "projectName": "OnlineBookstore.WebApi",
+        "projectPath": "D:\\Bitbucket\\Web\\OnlineBookstore\\OnlineBookstore\\OnlineBookstore.WebApi\\OnlineBookstore.WebApi.csproj",
+        "packagesPath": "C:\\Users\\Dharmesh\\.nuget\\packages\\",
+        "outputPath": "D:\\Bitbucket\\Web\\OnlineBookstore\\OnlineBookstore\\OnlineBookstore.WebApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Dharmesh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "D:\\Bitbucket\\Web\\LMS": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\Bitbucket\\Web\\OnlineBookstore\\OnlineBookstore\\OnlineBookstore.Application\\OnlineBookstore.Application.csproj": {
+                "projectPath": "D:\\Bitbucket\\Web\\OnlineBookstore\\OnlineBookstore\\OnlineBookstore.Application\\OnlineBookstore.Application.csproj"
+              },
+              "D:\\Bitbucket\\Web\\OnlineBookstore\\OnlineBookstore\\OnlineBookstore.Infrastructure.Identity\\OnlineBookstore.Infrastructure.Identity.csproj": {
+                "projectPath": "D:\\Bitbucket\\Web\\OnlineBookstore\\OnlineBookstore\\OnlineBookstore.Infrastructure.Identity\\OnlineBookstore.Infrastructure.Identity.csproj"
+              },
+              "D:\\Bitbucket\\Web\\OnlineBookstore\\OnlineBookstore\\OnlineBookstore.Infrastructure.Persistence\\OnlineBookstore.Infrastructure.Persistence.csproj": {
+                "projectPath": "D:\\Bitbucket\\Web\\OnlineBookstore\\OnlineBookstore\\OnlineBookstore.Infrastructure.Persistence\\OnlineBookstore.Infrastructure.Persistence.csproj"
+              },
+              "D:\\Bitbucket\\Web\\OnlineBookstore\\OnlineBookstore\\OnlineBookstore.Infrastructure.Shared\\OnlineBookstore.Infrastructure.Shared.csproj": {
+                "projectPath": "D:\\Bitbucket\\Web\\OnlineBookstore\\OnlineBookstore\\OnlineBookstore.Infrastructure.Shared\\OnlineBookstore.Infrastructure.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[9.1.2, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Versioning": {
+              "target": "Package",
+              "version": "[4.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[3.4.0, )"
+            },
+            "Serilog.Enrichers.Environment": {
+              "target": "Package",
+              "version": "[2.1.3, )"
+            },
+            "Serilog.Enrichers.Process": {
+              "target": "Package",
+              "version": "[2.0.1, )"
+            },
+            "Serilog.Enrichers.Thread": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Serilog.Settings.Configuration": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Serilog.Sinks.MSSqlServer": {
+              "target": "Package",
+              "version": "[5.5.1, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.5.1, )"
+            },
+            "Swashbuckle.AspNetCore.Swagger": {
+              "target": "Package",
+              "version": "[5.5.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

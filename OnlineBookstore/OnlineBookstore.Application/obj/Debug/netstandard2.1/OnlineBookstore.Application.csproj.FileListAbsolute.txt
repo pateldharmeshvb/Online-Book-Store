@@ -1,0 +1,12 @@
+D:\Bitbucket\Web\OnlineBookstore\OnlineBookstore\OnlineBookstore.Application\bin\Debug\netstandard2.1\OnlineBookstore.Application.deps.json
+D:\Bitbucket\Web\OnlineBookstore\OnlineBookstore\OnlineBookstore.Application\bin\Debug\netstandard2.1\OnlineBookstore.Application.dll
+D:\Bitbucket\Web\OnlineBookstore\OnlineBookstore\OnlineBookstore.Application\bin\Debug\netstandard2.1\OnlineBookstore.Application.pdb
+D:\Bitbucket\Web\OnlineBookstore\OnlineBookstore\OnlineBookstore.Application\bin\Debug\netstandard2.1\OnlineBookstore.Domain.dll
+D:\Bitbucket\Web\OnlineBookstore\OnlineBookstore\OnlineBookstore.Application\bin\Debug\netstandard2.1\OnlineBookstore.Domain.pdb
+D:\Bitbucket\Web\OnlineBookstore\OnlineBookstore\OnlineBookstore.Application\obj\Debug\netstandard2.1\OnlineBookstore.Application.csprojAssemblyReference.cache
+D:\Bitbucket\Web\OnlineBookstore\OnlineBookstore\OnlineBookstore.Application\obj\Debug\netstandard2.1\OnlineBookstore.Application.AssemblyInfoInputs.cache
+D:\Bitbucket\Web\OnlineBookstore\OnlineBookstore\OnlineBookstore.Application\obj\Debug\netstandard2.1\OnlineBookstore.Application.AssemblyInfo.cs
+D:\Bitbucket\Web\OnlineBookstore\OnlineBookstore\OnlineBookstore.Application\obj\Debug\netstandard2.1\OnlineBookstore.Application.csproj.CoreCompileInputs.cache
+D:\Bitbucket\Web\OnlineBookstore\OnlineBookstore\OnlineBookstore.Application\obj\Debug\netstandard2.1\OnlineBookstore.Application.csproj.CopyComplete
+D:\Bitbucket\Web\OnlineBookstore\OnlineBookstore\OnlineBookstore.Application\obj\Debug\netstandard2.1\OnlineBookstore.Application.dll
+D:\Bitbucket\Web\OnlineBookstore\OnlineBookstore\OnlineBookstore.Application\obj\Debug\netstandard2.1\OnlineBookstore.Application.pdb

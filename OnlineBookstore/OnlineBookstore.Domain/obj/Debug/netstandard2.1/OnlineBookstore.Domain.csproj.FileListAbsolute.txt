@@ -1,0 +1,9 @@
+D:\Bitbucket\Web\OnlineBookstore\OnlineBookstore\OnlineBookstore.Domain\bin\Debug\netstandard2.1\OnlineBookstore.Domain.deps.json
+D:\Bitbucket\Web\OnlineBookstore\OnlineBookstore\OnlineBookstore.Domain\bin\Debug\netstandard2.1\OnlineBookstore.Domain.dll
+D:\Bitbucket\Web\OnlineBookstore\OnlineBookstore\OnlineBookstore.Domain\bin\Debug\netstandard2.1\OnlineBookstore.Domain.pdb
+D:\Bitbucket\Web\OnlineBookstore\OnlineBookstore\OnlineBookstore.Domain\obj\Debug\netstandard2.1\OnlineBookstore.Domain.csprojAssemblyReference.cache
+D:\Bitbucket\Web\OnlineBookstore\OnlineBookstore\OnlineBookstore.Domain\obj\Debug\netstandard2.1\OnlineBookstore.Domain.AssemblyInfoInputs.cache
+D:\Bitbucket\Web\OnlineBookstore\OnlineBookstore\OnlineBookstore.Domain\obj\Debug\netstandard2.1\OnlineBookstore.Domain.AssemblyInfo.cs
+D:\Bitbucket\Web\OnlineBookstore\OnlineBookstore\OnlineBookstore.Domain\obj\Debug\netstandard2.1\OnlineBookstore.Domain.csproj.CoreCompileInputs.cache
+D:\Bitbucket\Web\OnlineBookstore\OnlineBookstore\OnlineBookstore.Domain\obj\Debug\netstandard2.1\OnlineBookstore.Domain.dll
+D:\Bitbucket\Web\OnlineBookstore\OnlineBookstore\OnlineBookstore.Domain\obj\Debug\netstandard2.1\OnlineBookstore.Domain.pdb

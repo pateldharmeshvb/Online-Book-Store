@@ -1,0 +1,14 @@
+D:\Bitbucket\Web\OnlineBookstore\OnlineBookstore\OnlineBookstore.Infrastructure.Persistence\bin\Debug\netcoreapp3.1\OnlineBookstore.Infrastructure.Persistence.deps.json
+D:\Bitbucket\Web\OnlineBookstore\OnlineBookstore\OnlineBookstore.Infrastructure.Persistence\bin\Debug\netcoreapp3.1\OnlineBookstore.Infrastructure.Persistence.dll
+D:\Bitbucket\Web\OnlineBookstore\OnlineBookstore\OnlineBookstore.Infrastructure.Persistence\bin\Debug\netcoreapp3.1\OnlineBookstore.Infrastructure.Persistence.pdb
+D:\Bitbucket\Web\OnlineBookstore\OnlineBookstore\OnlineBookstore.Infrastructure.Persistence\bin\Debug\netcoreapp3.1\OnlineBookstore.Application.dll
+D:\Bitbucket\Web\OnlineBookstore\OnlineBookstore\OnlineBookstore.Infrastructure.Persistence\bin\Debug\netcoreapp3.1\OnlineBookstore.Domain.dll
+D:\Bitbucket\Web\OnlineBookstore\OnlineBookstore\OnlineBookstore.Infrastructure.Persistence\bin\Debug\netcoreapp3.1\OnlineBookstore.Application.pdb
+D:\Bitbucket\Web\OnlineBookstore\OnlineBookstore\OnlineBookstore.Infrastructure.Persistence\bin\Debug\netcoreapp3.1\OnlineBookstore.Domain.pdb
+D:\Bitbucket\Web\OnlineBookstore\OnlineBookstore\OnlineBookstore.Infrastructure.Persistence\obj\Debug\netcoreapp3.1\OnlineBookstore.Infrastructure.Persistence.csprojAssemblyReference.cache
+D:\Bitbucket\Web\OnlineBookstore\OnlineBookstore\OnlineBookstore.Infrastructure.Persistence\obj\Debug\netcoreapp3.1\OnlineBookstore.Infrastructure.Persistence.AssemblyInfoInputs.cache
+D:\Bitbucket\Web\OnlineBookstore\OnlineBookstore\OnlineBookstore.Infrastructure.Persistence\obj\Debug\netcoreapp3.1\OnlineBookstore.Infrastructure.Persistence.AssemblyInfo.cs
+D:\Bitbucket\Web\OnlineBookstore\OnlineBookstore\OnlineBookstore.Infrastructure.Persistence\obj\Debug\netcoreapp3.1\OnlineBookstore.Infrastructure.Persistence.csproj.CoreCompileInputs.cache
+D:\Bitbucket\Web\OnlineBookstore\OnlineBookstore\OnlineBookstore.Infrastructure.Persistence\obj\Debug\netcoreapp3.1\OnlineBookstore.Infrastructure.Persistence.csproj.CopyComplete
+D:\Bitbucket\Web\OnlineBookstore\OnlineBookstore\OnlineBookstore.Infrastructure.Persistence\obj\Debug\netcoreapp3.1\OnlineBookstore.Infrastructure.Persistence.dll
+D:\Bitbucket\Web\OnlineBookstore\OnlineBookstore\OnlineBookstore.Infrastructure.Persistence\obj\Debug\netcoreapp3.1\OnlineBookstore.Infrastructure.Persistence.pdb

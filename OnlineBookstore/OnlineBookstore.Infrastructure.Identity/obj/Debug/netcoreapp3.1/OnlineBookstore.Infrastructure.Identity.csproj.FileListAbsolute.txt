@@ -1,0 +1,17 @@
+D:\Bitbucket\Web\OnlineBookstore\OnlineBookstore\OnlineBookstore.Infrastructure.Identity\bin\Debug\netcoreapp3.1\OnlineBookstore.Infrastructure.Identity.deps.json
+D:\Bitbucket\Web\OnlineBookstore\OnlineBookstore\OnlineBookstore.Infrastructure.Identity\bin\Debug\netcoreapp3.1\OnlineBookstore.Infrastructure.Identity.runtimeconfig.json
+D:\Bitbucket\Web\OnlineBookstore\OnlineBookstore\OnlineBookstore.Infrastructure.Identity\bin\Debug\netcoreapp3.1\OnlineBookstore.Infrastructure.Identity.runtimeconfig.dev.json
+D:\Bitbucket\Web\OnlineBookstore\OnlineBookstore\OnlineBookstore.Infrastructure.Identity\bin\Debug\netcoreapp3.1\OnlineBookstore.Infrastructure.Identity.dll
+D:\Bitbucket\Web\OnlineBookstore\OnlineBookstore\OnlineBookstore.Infrastructure.Identity\bin\Debug\netcoreapp3.1\OnlineBookstore.Infrastructure.Identity.pdb
+D:\Bitbucket\Web\OnlineBookstore\OnlineBookstore\OnlineBookstore.Infrastructure.Identity\bin\Debug\netcoreapp3.1\OnlineBookstore.Application.dll
+D:\Bitbucket\Web\OnlineBookstore\OnlineBookstore\OnlineBookstore.Infrastructure.Identity\bin\Debug\netcoreapp3.1\OnlineBookstore.Domain.dll
+D:\Bitbucket\Web\OnlineBookstore\OnlineBookstore\OnlineBookstore.Infrastructure.Identity\bin\Debug\netcoreapp3.1\OnlineBookstore.Application.pdb
+D:\Bitbucket\Web\OnlineBookstore\OnlineBookstore\OnlineBookstore.Infrastructure.Identity\bin\Debug\netcoreapp3.1\OnlineBookstore.Domain.pdb
+D:\Bitbucket\Web\OnlineBookstore\OnlineBookstore\OnlineBookstore.Infrastructure.Identity\obj\Debug\netcoreapp3.1\OnlineBookstore.Infrastructure.Identity.csprojAssemblyReference.cache
+D:\Bitbucket\Web\OnlineBookstore\OnlineBookstore\OnlineBookstore.Infrastructure.Identity\obj\Debug\netcoreapp3.1\OnlineBookstore.Infrastructure.Identity.AssemblyInfoInputs.cache
+D:\Bitbucket\Web\OnlineBookstore\OnlineBookstore\OnlineBookstore.Infrastructure.Identity\obj\Debug\netcoreapp3.1\OnlineBookstore.Infrastructure.Identity.AssemblyInfo.cs
+D:\Bitbucket\Web\OnlineBookstore\OnlineBookstore\OnlineBookstore.Infrastructure.Identity\obj\Debug\netcoreapp3.1\OnlineBookstore.Infrastructure.Identity.csproj.CoreCompileInputs.cache
+D:\Bitbucket\Web\OnlineBookstore\OnlineBookstore\OnlineBookstore.Infrastructure.Identity\obj\Debug\netcoreapp3.1\OnlineBookstore.Infrastructure.Identity.csproj.CopyComplete
+D:\Bitbucket\Web\OnlineBookstore\OnlineBookstore\OnlineBookstore.Infrastructure.Identity\obj\Debug\netcoreapp3.1\OnlineBookstore.Infrastructure.Identity.dll
+D:\Bitbucket\Web\OnlineBookstore\OnlineBookstore\OnlineBookstore.Infrastructure.Identity\obj\Debug\netcoreapp3.1\OnlineBookstore.Infrastructure.Identity.pdb
+D:\Bitbucket\Web\OnlineBookstore\OnlineBookstore\OnlineBookstore.Infrastructure.Identity\obj\Debug\netcoreapp3.1\OnlineBookstore.Infrastructure.Identity.genruntimeconfig.cache
