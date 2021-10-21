@@ -10,7 +10,7 @@ using OnlineBookstore.Infrastructure.Persistence.Contexts;
 namespace OnlineBookstore.Infrastructure.Persistence.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20211021130317_InitialOnlineBookstore")]
+    [Migration("20211021171704_InitialOnlineBookstore")]
     partial class InitialOnlineBookstore
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -21,12 +21,48 @@ namespace OnlineBookstore.Infrastructure.Persistence.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-            modelBuilder.Entity("OnlineBookstore.Domain.Entities.Book", b =>
+            modelBuilder.Entity("OnlineBookstore.Domain.Entities.Author", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<int>("AuthorId")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<DateTime>("Created")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("CreatedBy")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("Dob")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime?>("LastModified")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("LastModifiedBy")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Name")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Topic")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("AuthorId");
+
+                    b.ToTable("Authors");
+                });
+
+            modelBuilder.Entity("OnlineBookstore.Domain.Entities.Book", b =>
+                {
+                    b.Property<int>("BookId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<int>("AuthorRefId")
+                        .HasColumnType("int");
 
                     b.Property<string>("Barcode")
                         .HasColumnType("nvarchar(max)");
@@ -52,9 +88,20 @@ namespace OnlineBookstore.Infrastructure.Persistence.Migrations
                     b.Property<decimal>("Rate")
                         .HasColumnType("decimal(18,6)");
 
-                    b.HasKey("Id");
+                    b.HasKey("BookId");
 
-                    b.ToTable("Products");
+                    b.HasIndex("AuthorRefId");
+
+                    b.ToTable("Books");
+                });
+
+            modelBuilder.Entity("OnlineBookstore.Domain.Entities.Book", b =>
+                {
+                    b.HasOne("OnlineBookstore.Domain.Entities.Author", "Author")
+                        .WithMany()
+                        .HasForeignKey("AuthorRefId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
                 });
 #pragma warning restore 612, 618
         }
