@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace OnlineBookstore.Application.Features.Products.Queries.GetAllProducts
+namespace OnlineBookstore.Application.DTOs.Book
 {
-    public class GetAllProductsViewModel
+    public class GetAllBooksViewModel
     {
         public int Id { get; set; }
         public string Name { get; set; }

@@ -9,15 +9,15 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace OnlineBookstore.Application.Features.Products.Commands.CreateProduct
+namespace OnlineBookstore.Application.Features.Books.Commands.CreateBook
 {
-    public class CreateProductCommandValidator : AbstractValidator<CreateProductCommand>
+    public class CreateBookCommandValidator : AbstractValidator<CreateBookCommand>
     {
-        private readonly IProductRepositoryAsync productRepository;
+        private readonly IBookRepositoryAsync bookRepository;
 
-        public CreateProductCommandValidator(IProductRepositoryAsync productRepository)
+        public CreateBookCommandValidator(IBookRepositoryAsync bookRepository)
         {
-            this.productRepository = productRepository;
+            this.bookRepository = bookRepository;
 
             RuleFor(p => p.Barcode)
                 .NotEmpty().WithMessage("{PropertyName} is required.")
@@ -34,7 +34,7 @@ namespace OnlineBookstore.Application.Features.Products.Commands.CreateProduct
 
         private async Task<bool> IsUniqueBarcode(string barcode, CancellationToken cancellationToken)
         {
-            return await productRepository.IsUniqueBarcodeAsync(barcode);
+            return await bookRepository.IsUniqueBarcodeAsync(barcode);
         }
     }
 }

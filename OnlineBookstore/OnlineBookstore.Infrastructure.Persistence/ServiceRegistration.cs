@@ -28,7 +28,7 @@ namespace OnlineBookstore.Infrastructure.Persistence
             }
             #region Repositories
             services.AddTransient(typeof(IGenericRepositoryAsync<>), typeof(GenericRepositoryAsync<>));
-            services.AddTransient<IProductRepositoryAsync, ProductRepositoryAsync>();
+            services.AddTransient<IBookRepositoryAsync, ProductRepositoryAsync>();
             #endregion
         }
     }

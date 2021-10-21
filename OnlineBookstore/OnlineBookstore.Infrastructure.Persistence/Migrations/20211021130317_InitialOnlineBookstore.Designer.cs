@@ -10,7 +10,7 @@ using OnlineBookstore.Infrastructure.Persistence.Contexts;
 namespace OnlineBookstore.Infrastructure.Persistence.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20211021115619_InitialOnlineBookstore")]
+    [Migration("20211021130317_InitialOnlineBookstore")]
     partial class InitialOnlineBookstore
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -21,7 +21,7 @@ namespace OnlineBookstore.Infrastructure.Persistence.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-            modelBuilder.Entity("OnlineBookstore.Domain.Entities.Product", b =>
+            modelBuilder.Entity("OnlineBookstore.Domain.Entities.Book", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()

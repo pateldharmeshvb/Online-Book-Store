@@ -5,7 +5,7 @@ using System.Text;
 
 namespace OnlineBookstore.Domain.Entities
 {
-    public class Product : AuditableBaseEntity
+    public class Book : AuditableBaseEntity
     {
         public string Name { get; set; }
         public string Barcode { get; set; }

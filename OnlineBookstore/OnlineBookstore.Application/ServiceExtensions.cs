@@ -3,7 +3,7 @@ using FluentValidation;
 using MediatR;
 using Microsoft.Extensions.DependencyInjection;
 using OnlineBookstore.Application.Behaviours;
-using OnlineBookstore.Application.Features.Products.Commands.CreateProduct;
+using OnlineBookstore.Application.Features.Books.Commands.CreateBook;
 using System;
 using System.Collections.Generic;
 using System.Reflection;

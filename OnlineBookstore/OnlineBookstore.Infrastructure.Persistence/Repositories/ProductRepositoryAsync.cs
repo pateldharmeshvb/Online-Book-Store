@@ -10,13 +10,13 @@ using System.Threading.Tasks;
 
 namespace OnlineBookstore.Infrastructure.Persistence.Repositories
 {
-    public class ProductRepositoryAsync : GenericRepositoryAsync<Product>, IProductRepositoryAsync
+    public class ProductRepositoryAsync : GenericRepositoryAsync<Book>, IBookRepositoryAsync
     {
-        private readonly DbSet<Product> _products;
+        private readonly DbSet<Book> _products;
 
         public ProductRepositoryAsync(ApplicationDbContext dbContext) : base(dbContext)
         {
-            _products = dbContext.Set<Product>();
+            _products = dbContext.Set<Book>();
         }
 
         public Task<bool> IsUniqueBarcodeAsync(string barcode)

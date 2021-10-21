@@ -1,11 +1,12 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using OnlineBookstore.Application.Features.Products.Commands;
-using OnlineBookstore.Application.Features.Products.Commands.CreateProduct;
-using OnlineBookstore.Application.Features.Products.Commands.DeleteProductById;
-using OnlineBookstore.Application.Features.Products.Commands.UpdateProduct;
-using OnlineBookstore.Application.Features.Products.Queries.GetAllProducts;
-using OnlineBookstore.Application.Features.Products.Queries.GetProductById;
+using OnlineBookstore.Application.Features.Books.Commands;
+using OnlineBookstore.Application.Features.Books.Commands.CreateBook;
+using OnlineBookstore.Application.Features.Books.Commands.DeleteBookById;
+using OnlineBookstore.Application.Features.Books.Commands.UpdateBook;
+using OnlineBookstore.Application.Features.Books.Queries.GetAllBook;
+using OnlineBookstore.Application.Features.Books.Queries.GetAllBooks;
+using OnlineBookstore.Application.Features.Books.Queries.GetBookById;
 using OnlineBookstore.Application.Filters;
 using System;
 using System.Collections.Generic;
@@ -17,35 +18,35 @@ using System.Threading.Tasks;
 namespace OnlineBookstore.WebApi.Controllers.v1
 {
     [ApiVersion("1.0")]
-    public class ProductController : BaseApiController
+    public class BookController : BaseApiController
     {
         // GET: api/<controller>
         [HttpGet]
-        public async Task<IActionResult> Get([FromQuery] GetAllProductsParameter filter)
+        public async Task<IActionResult> Get([FromQuery] GetAllBooksParameter filter)
         {
 
-            return Ok(await Mediator.Send(new GetAllProductsQuery() { PageSize = filter.PageSize, PageNumber = filter.PageNumber }));
+            return Ok(await Mediator.Send(new GetAllBooksQuery() { PageSize = filter.PageSize, PageNumber = filter.PageNumber }));
         }
 
         // GET api/<controller>/5
         [HttpGet("{id}")]
         public async Task<IActionResult> Get(int id)
         {
-            return Ok(await Mediator.Send(new GetProductByIdQuery { Id = id }));
+            return Ok(await Mediator.Send(new GetBookByIdQuery { Id = id }));
         }
 
         // POST api/<controller>
         [HttpPost]
-        [Authorize]
-        public async Task<IActionResult> Post(CreateProductCommand command)
+        //[Authorize]
+        public async Task<IActionResult> Post(CreateBookCommand command)
         {
             return Ok(await Mediator.Send(command));
         }
 
         // PUT api/<controller>/5
         [HttpPut("{id}")]
-        [Authorize]
-        public async Task<IActionResult> Put(int id, UpdateProductCommand command)
+        //[Authorize]
+        public async Task<IActionResult> Put(int id, UpdateBookCommand command)
         {
             if (id != command.Id)
             {
@@ -56,10 +57,10 @@ namespace OnlineBookstore.WebApi.Controllers.v1
 
         // DELETE api/<controller>/5
         [HttpDelete("{id}")]
-        [Authorize]
+        //[Authorize]
         public async Task<IActionResult> Delete(int id)
         {
-            return Ok(await Mediator.Send(new DeleteProductByIdCommand { Id = id }));
+            return Ok(await Mediator.Send(new DeleteBookByIdCommand { Id = id }));
         }
     }
 }

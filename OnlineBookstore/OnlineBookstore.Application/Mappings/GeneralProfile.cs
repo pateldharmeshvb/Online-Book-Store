@@ -1,6 +1,8 @@
 ﻿using AutoMapper;
-using OnlineBookstore.Application.Features.Products.Commands.CreateProduct;
-using OnlineBookstore.Application.Features.Products.Queries.GetAllProducts;
+using OnlineBookstore.Application.DTOs.Book;
+using OnlineBookstore.Application.Features.Books.Commands.CreateBook;
+using OnlineBookstore.Application.Features.Books.Queries.GetAllBook;
+using OnlineBookstore.Application.Features.Books.Queries.GetAllBooks;
 using OnlineBookstore.Domain.Entities;
 using System;
 using System.Collections.Generic;
@@ -12,9 +14,9 @@ namespace OnlineBookstore.Application.Mappings
     {
         public GeneralProfile()
         {
-            CreateMap<Product, GetAllProductsViewModel>().ReverseMap();
-            CreateMap<CreateProductCommand, Product>();
-            CreateMap<GetAllProductsQuery, GetAllProductsParameter>();
+            CreateMap<Book, GetAllBooksViewModel>().ReverseMap();
+            CreateMap<CreateBookCommand, Book>();
+            CreateMap<GetAllBooksQuery, GetAllBooksParameter>();
         }
     }
 }

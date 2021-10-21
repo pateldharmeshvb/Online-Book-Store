@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace OnlineBookstore.Application.Interfaces.Repositories
 {
-    public interface IProductRepositoryAsync : IGenericRepositoryAsync<Product>
+    public interface IBookRepositoryAsync : IGenericRepositoryAsync<Book>
     {
         Task<bool> IsUniqueBarcodeAsync(string barcode);
     }
