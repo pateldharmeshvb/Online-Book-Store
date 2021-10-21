@@ -8,6 +8,7 @@ namespace OnlineBookstore.Domain.Entities
 {
     public class Book : AuditableBaseEntity
     {
+        public int BookId { get; set; }
         public string Name { get; set; }
         public string Barcode { get; set; }
         public string Description { get; set; }

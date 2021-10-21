@@ -37,7 +37,7 @@ namespace OnlineBookstore.Application.Features.Books.Commands.UpdateBook
                     book.Rate = command.Rate;
                     book.Description = command.Description;
                     await _bookRepository.UpdateAsync(book);
-                    return new Response<int>(book.Id);
+                    return new Response<int>(book.BookId);
                 }
             }
         }

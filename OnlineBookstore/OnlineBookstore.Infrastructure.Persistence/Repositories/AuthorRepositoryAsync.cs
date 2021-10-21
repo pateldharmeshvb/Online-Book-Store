@@ -10,19 +10,19 @@ using System.Threading.Tasks;
 
 namespace OnlineBookstore.Infrastructure.Persistence.Repositories
 {
-    public class ProductRepositoryAsync : GenericRepositoryAsync<Book>, IBookRepositoryAsync
+    public class AuthorRepositoryAsync : GenericRepositoryAsync<Author>, IAuthorRepositoryAsync
     {
-        private readonly DbSet<Book> _products;
+        private readonly DbSet<Author> _authors;
 
-        public ProductRepositoryAsync(ApplicationDbContext dbContext) : base(dbContext)
+        public AuthorRepositoryAsync(ApplicationDbContext dbContext) : base(dbContext)
         {
-            _products = dbContext.Set<Book>();
+            _authors = dbContext.Set<Author>();
         }
 
-        public Task<bool> IsUniqueBarcodeAsync(string barcode)
+        public Task<bool> IsUniqueNameAsync(string name)
         {
-            return _products
-                .AllAsync(p => p.Barcode != barcode);
+            return _authors
+                .AllAsync(p => p.Name != name);
         }
     }
 }

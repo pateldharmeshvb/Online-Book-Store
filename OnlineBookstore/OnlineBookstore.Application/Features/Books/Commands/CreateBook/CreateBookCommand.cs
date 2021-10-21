@@ -14,6 +14,7 @@ namespace OnlineBookstore.Application.Features.Books.Commands.CreateBook
         public string Barcode { get; set; }
         public string Description { get; set; }
         public decimal Rate { get; set; }
+        public int AuthorRefId { get; set; }
     }
     public class CreateBookCommandHandler : IRequestHandler<CreateBookCommand, Response<int>>
     {
@@ -29,7 +30,7 @@ namespace OnlineBookstore.Application.Features.Books.Commands.CreateBook
         {
             var book = _mapper.Map<Book>(request);
             await _bookRepository.AddAsync(book);
-            return new Response<int>(book.Id);
+            return new Response<int>(book.BookId);
         }
     }
 }

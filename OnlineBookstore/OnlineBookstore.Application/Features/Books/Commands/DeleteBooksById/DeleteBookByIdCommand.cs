@@ -25,7 +25,7 @@ namespace OnlineBookstore.Application.Features.Books.Commands.DeleteBookById
                 var book = await _bookRepository.GetByIdAsync(command.Id);
                 if (book == null) throw new ApiException($"Book Not Found.");
                 await _bookRepository.DeleteAsync(book);
-                return new Response<int>(book.Id);
+                return new Response<int>(book.BookId);
             }
         }
     }

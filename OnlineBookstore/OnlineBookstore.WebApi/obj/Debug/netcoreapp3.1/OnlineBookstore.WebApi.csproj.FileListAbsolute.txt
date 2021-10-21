@@ -189,3 +189,4 @@ D:\Bitbucket\Web\OnlineBookstore\OnlineBookstore\OnlineBookstore.WebApi\obj\Debu
 D:\Bitbucket\Web\OnlineBookstore\OnlineBookstore\OnlineBookstore.WebApi\obj\Debug\netcoreapp3.1\OnlineBookstore.WebApi.dll
 D:\Bitbucket\Web\OnlineBookstore\OnlineBookstore\OnlineBookstore.WebApi\obj\Debug\netcoreapp3.1\OnlineBookstore.WebApi.pdb
 D:\Bitbucket\Web\OnlineBookstore\OnlineBookstore\OnlineBookstore.WebApi\obj\Debug\netcoreapp3.1\OnlineBookstore.WebApi.genruntimeconfig.cache
+D:\Bitbucket\Web\OnlineBookstore\OnlineBookstore\OnlineBookstore.WebApi\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
